@@ -11,5 +11,5 @@ values=1, 2, 3, 4, 5
 print(values)
 print(type(values))
 # x, y, z=values # eleman sayısına eşit olmalı ne fazla ne de eksik olmalı
-x, y, *z=values
+x, y, *z=values # z'yi dizi/liste yaptı
 print(x,y,z)
