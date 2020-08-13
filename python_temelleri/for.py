@@ -27,3 +27,50 @@ for item in d.items():
 for k,v  in d.items():
     print(k, v)
 
+    #uygulama
+sayilar=[1, 3, 5, 7, 9, 12, 19, 21]
+# #1 
+# a=0
+# for n in sayilar:
+#     if n%3==0:
+#         a+=1
+# print(f'Sayılar listesinde üçe bölünebilen sayıların sayısı= {a}')
+
+# #2
+# a=0
+# for n in sayilar:
+#     a+=n
+# print(a)
+
+# #3
+# a=[]
+# for n in sayilar:
+#     if n%2==1:
+#         a.append(n**2)
+# print(a)
+
+sehirler=['kocaeli', 'istanbul', 'ankara', 'izmir', 'rize']
+# #4
+# a=0
+# for n in sehirler:
+#     if len(n)<=5:
+#         a+=1
+# print(a)
+
+urunler=[
+    {'name':'Samsung S6', 'price':'3000'},
+    {'name':'Samsung S7', 'price':'4000'},
+    {'name':'Samsung S8', 'price':'5000'},
+    {'name':'Samsung S9', 'price':'6000'},
+    {'name':'Samsung S10', 'price':'7000'}
+]
+# #5
+# a=0
+# for n in urunler:
+#     a+=int(n['price'])
+# print(a)
+
+# #6
+# for n in urunler:
+#     if ( int(n['price'])<=5000):
+#         print(n['name'])
